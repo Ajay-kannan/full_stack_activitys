@@ -1,0 +1,44 @@
+body {
+    background-color: #efefef;
+
+}
+.allcon{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+    margin: 25px;
+
+}
+
+#cart{
+    background-color: white;
+    width: 200px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+    margin: 25px;
+}
+
+.container > div > button {
+    background-color: rgb(26, 120, 163);
+    height: 50px;
+    font-size: larger;
+    border-radius: 10px;
+}

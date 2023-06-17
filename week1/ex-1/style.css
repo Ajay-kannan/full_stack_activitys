@@ -1,0 +1,19 @@
+.cardlist {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#pizzaimg {
+    width: 100px;
+    height: 100px;
+}
+
+.optionlist {
+    display: flex;
+    flex-direction: column;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="flexinput">
+
+        <input type="text" id="unitvalue" placeholder="Enter the Unit"/>
+        <button onclick="calculate()" id="buttonc">submit</button>
+    </div>
+    
+    <div id="container">
+        <div id="unit">
+            <div class="inner">consumed Units</div>
+            <label id="value1"> 0 </label>
+        </div>
+        <div id="char ">
+            <div class="inner">total current charges rs :
+                <div>current charges rs :</div>
+            </div>
+            <div class="flexvalue" >
+                <label id="value2"> 0</label>
+                <label id="value3">0</label>
+
+            </div>
+                
+            
+        </div>
+        <div id="cost">
+            <div class="inner">fixed cost rs:
+                <div>subsidy fixed cost Rs:</div>
+                <div>new subsidy rs :</div>
+            </div>
+            <div class="flexvalue">
+                <label id="value6">0</label>
+                <label id="value4">0</label>
+                <label id="value5">0</label>
+                
+            </div>
+        </div>
+        <div id="amt">
+            <div class="inner">net  amount rs :</div>
+            <div id="value7">0</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

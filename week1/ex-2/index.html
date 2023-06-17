@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizzacorner Online Order Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pizzacorner Online Order Form</h1>
+      <form id="order-form">
+        <div class="form-group">
+          <label for="size">Select size:</label>
+          <select id="size" name="size">
+            <option value="small">Small - ₹99</option>
+            <option value="medium">Medium - ₹199</option>
+            <option value="large">Large - ₹399</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="crust">Select crust:</label>
+          <input type="radio" id="thin-crust" name="crust" value="thin-crust" checked>
+          <label for="thin-crust">Thin crust</label>
+          <input type="radio" id="deep-pan" name="crust" value="deep-pan">
+          <label for="deep-pan">Deep pan (add ₹20)</label>
+        </div>
+        <div class="form-group">
+          <label for="toppings">Select toppings:</label>
+          <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+          <label for="mushrooms">Mushrooms (add ₹15)</label>
+          <input type="checkbox" id="olives" name="toppings" value="olives">
+          <label for="olives">Olives (add ₹10)</label>
+          <input type="checkbox" id="fingernail" name="toppings" value="fingernail">
+          <label for="fingernail">Fingernail (add ₹30)</label>
+          <input type="checkbox" id="spicy-beef" name="toppings" value="spicy-beef">
+          <label for="spicy-beef">Spicy beef (add ₹20)</label>
+        </div>
+        <div class="form-group">
+          <input type="checkbox" id="home-delivery" name="home-delivery" value="home-delivery">
+          <label for="home-delivery">Home delivery (add ₹25)</label>
+        </div>
+        <div class="form-group">
+          <button type="button" id="add-to-cart-btn">Add to Cart</button>
+        </div>
+      </form>
+      <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+        </ul>
+        <div id="total-cost">Total: ₹0</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

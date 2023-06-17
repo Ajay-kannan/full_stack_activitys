@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <h1>Vending machine </h1>
+    <div class="allcon">
+        <div class="container">
+            <div id="item1">
+              <h1>Four-line notebook</h1>
+              <h3>price : $ 15.00</h3>
+              <div><h3>available : </h3> <label id="stock1">0</label></div>
+              <button onclick="addcart(1)">Add to cart</button>
+            </div>
+            <div id="item1">
+                <h1>two - line notebook</h1>
+                <h3>price : $ 10.00</h3>
+                <div><h3>available : </h3><label id="stock2">0</label></div>
+                <button onclick="addcart(2)">Add to cart</button>
+              </div>
+              <div id="item1">
+                <h1>Hb pencil</h1>
+                <h3>price : $ 5.00</h3>
+                <div><h3>available : </h3><label id="stock3">0</label></div>
+                <button onclick="addcart(3)">Add to cart</button>
+              </div>
+              <div id="item1">
+                <h1>Eraser</h1>
+                <h3>price : $ 2.00</h3>
+                <div><h3>available : </h3><label id="stock4">0</label></div>
+                <button onclick="addcart(4)">Add to cart</button>
+              </div>
+              <div id="item1">
+                <h1>Drawing Notebook</h1>
+                <h3>price : $ 20.00</h3>
+                <div><h3>available : </h3><label id="stock5">0</label></div>
+                <button onclick="addcart(5)">Add to cart</button>
+              </div>
+
+      </div>
+      <div id="cart">
+        <h1>In cart</h1>
+        <div id="data"></div>
+        <button onclick="ok()">buy now</button>
+      </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
