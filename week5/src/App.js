@@ -9,7 +9,7 @@ import ContextAlarm from "./alarm/contextProvider";
 
 function Clock() {
   return (
-    <div>
+    <div className="alarm">
       <ContextAlarm>
         <Alarm />
       </ContextAlarm>

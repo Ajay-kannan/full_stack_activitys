@@ -86,3 +86,9 @@ table {
 .Clock {
   height: auto;
 }
+
+.alarm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
